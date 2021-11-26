@@ -1,0 +1,22 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.Navbar .Nav_links ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.Navbar .Nav_links ul li {
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.authentication {
+  display: flex;
+  gap: 20px;
+}
