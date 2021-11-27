@@ -1,0 +1,36 @@
+#Homepage {
+  background-image: url("../../image/background.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.homepage {
+  h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--primaryTextcolor);
+  }
+}
+#Homepage {
+  .homepageDetail {
+    margin: 15rem 0px;
+    h1 {
+      font-family: var(--pimraryfontfamily);
+      font-size: 60px;
+      font-weight: 400;
+      color: var(--primaryTextcolor);
+      margin-bottom: 1rem;
+    }
+    h5 {
+      color: var(--secondaryTextcolor);
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 4rem;
+    }
+    button {
+      padding: 1rem 4rem;
+      gap: 40px;
+      border-radius: 250px;
+    }
+  }
+}

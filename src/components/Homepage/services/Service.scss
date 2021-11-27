@@ -1,0 +1,57 @@
+.Services {
+  gap: 50px;
+  .Service-Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+  }
+  .leftcontainer {
+    width: 60%;
+  }
+  .rightcontainer {
+    width: 40%;
+    h2 {
+      font-family: var(--primaryfontfamily);
+      font-weight: 400;
+      font-size: 50px;
+      color: var(--primaryTextcolor);
+      margin-bottom: 10px;
+    }
+    > p {
+      color: var(--secondaryTextcolor);
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 15px 2rem;
+      border-radius: 250px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+}
+.Service {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--primarycardcolor);
+    padding: 4rem 5rem;
+    color: var(--primaryTextcolor);
+    border-radius: 12px;
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
+
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+    h4 {
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+}

@@ -4,6 +4,9 @@
   align-items: center;
   padding: 2rem 0;
 }
+.Navbar .logo {
+  color: var(--primaryTextcolor);
+}
 
 .Navbar .Nav_links ul {
   display: flex;
@@ -12,6 +15,7 @@
 }
 
 .Navbar .Nav_links ul li {
+  color: var(--primaryTextcolor);
   font-size: 16px;
   padding: 0 20px;
 }

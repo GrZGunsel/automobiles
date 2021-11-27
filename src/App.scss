@@ -1,4 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display&display=swap");
+
+:root {
+  --clrbgcolor: #121212;
+  --primary: #ff1494;
+  --primaryTextcolor: #ffffff;
+  --secondaryTextcolor: #d2d2d2;
+  --primarycardcolor: linear-gradient(
+    132.76deg,
+    rgba(67, 67, 67, 0.5) 0%,
+    rgba(45, 44, 44, 0.5) 100%
+  );
+  --primarybtnColor: linear-gradient(
+    92.03deg,
+    rgba(255, 20, 148, 0.8) 0%,
+    rgba(255, 20, 148, 0.64) 100%
+  );
+  --primaryfontfamily: Playfair Display, serif;
+  --secondaryfontfamily: IBM Plex Sans, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +26,14 @@
   border: none;
   outline: none;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--secondaryfontfamily);
+}
+
+body {
+  background-color: var(--clrbgcolor);
+}
+h1 {
+  font-family: var(--pimraryfontfamily);
 }
 
 .container {
@@ -14,6 +41,36 @@
 }
 
 section {
+  padding: 8rem 0;
   display: flex;
   justify-content: center;
+}
+
+#Homepage {
+  padding: 0;
+}
+
+.primarybtn {
+  background: var(--primarybtnColor);
+  font-size: 16px;
+  color: var(--primaryTextcolor);
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.align-center {
+  align-items: center;
 }

@@ -70,21 +70,10 @@ const Registration = () => {
               />
             </div>
 
-            <div className="bottomform">
-              <div className="RemeberMe">
-                <input type="checkbox" id="Remeberme" />
-                <label for="Remeberme"> Remember Me</label>
-              </div>
-              <div className="forget">
-                <a href="">
-                  <p>Forget Password?</p>
-                </a>
-              </div>
-            </div>
             <div className="button">
               <button className="btn">Registration</button>
               <p>
-                Not Registered Yet? <a href=""> Create an Account</a>
+                Already have an account <a href=""> Sign in</a>
               </p>
             </div>
           </form>
