@@ -4,18 +4,12 @@
   background-position: center;
   background-size: cover;
 }
-.homepage {
-  h2 {
-    font-size: 50px;
-    font-weight: 400;
-    color: var(--primaryTextcolor);
-  }
-}
+
 #Homepage {
   .homepageDetail {
     margin: 15rem 0px;
     h1 {
-      font-family: var(--pimraryfontfamily);
+      font-family: var(--primaryfontfamily);
       font-size: 60px;
       font-weight: 400;
       color: var(--primaryTextcolor);
