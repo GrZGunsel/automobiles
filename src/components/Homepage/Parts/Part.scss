@@ -42,6 +42,7 @@
 
 .slider {
   width: 100%;
+  padding: 2rem;
 }
 
 .slick-next:before,
@@ -56,7 +57,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-    margin-right: 20px;
+    margin: 0 10px;
+    overflow: hidden;
 
     .background-filter {
       display: flex;

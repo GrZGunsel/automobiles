@@ -6,6 +6,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import Services from "./services/Services";
 import Part from "./Parts/Part";
 import About from "./About/About";
+import Contact from "./Contact/Contact";
 
 const Homepage = () => {
   return (
@@ -29,6 +30,7 @@ const Homepage = () => {
       <Services />
       <Part />
       <About />
+      <Contact />
     </div>
   );
 };
