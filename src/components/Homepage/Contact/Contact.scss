@@ -1,12 +1,22 @@
 .about {
   .leftcontainer {
     width: 50%;
-    color: var(--primaryTextcolor);
 
     h2 {
       font-family: var(--primaryfontfamily);
+      color: var(--primaryTextcolor);
       font-size: 50px;
       font-weight: 400;
+      margin-bottom: 3rem;
+    }
+    h4 {
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    h4,
+    p {
+      color: var(--primaryTextcolor);
     }
 
     .contactdetails {
@@ -47,7 +57,8 @@
 
             border-radius: 12px;
             width: 100%;
-            padding: 15px 10px;
+            padding: 20px 15px;
+            color: var(--primaryTextcolor);
           }
         }
         .message {
