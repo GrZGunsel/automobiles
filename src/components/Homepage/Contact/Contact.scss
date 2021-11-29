@@ -1,0 +1,59 @@
+.about {
+  .leftcontainer {
+    width: 50%;
+    color: var(--primaryTextcolor);
+
+    h2 {
+      font-family: var(--primaryfontfamily);
+      font-size: 50px;
+      font-weight: 400;
+    }
+
+    .contactdetails {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 40px;
+      div {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        gap: 10px;
+        .icon {
+          color: var(--primaryTextcolor);
+          background-color: var(--primary);
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+  .rightcontainer {
+    width: 50%;
+    .form {
+      form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+
+        div {
+          input,
+          textarea {
+            background: linear-gradient(
+              132.76deg,
+              rgba(67, 67, 67, 0.2) 0%,
+              rgba(45, 44, 44, 0.2) 100%
+            );
+            backdrop-filter: blur(34px);
+            /* Note: backdrop-filter has minimal browser support */
+
+            border-radius: 12px;
+            width: 100%;
+            padding: 15px 10px;
+          }
+        }
+        .message {
+          grid-column: 1/3;
+        }
+      }
+    }
+  }
+}
