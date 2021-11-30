@@ -1,0 +1,86 @@
+#Cars {
+  padding: 2rem;
+}
+
+.carHeader {
+  margin-bottom: 4rem;
+  h1 {
+    font-family: var(--primaryfontfamily);
+    color: var(--primaryTextcolor);
+    font-size: 40px;
+  }
+  h4 {
+    color: var(--secondaryTextcolor);
+    font-weight: 300px;
+  }
+  .rightcontainer {
+    .SearchSection {
+      background: #444444;
+      border-radius: 55px;
+      gap: 20px;
+      padding: 15px 20px;
+      height: 100%;
+
+      color: var(--primary);
+      input {
+        background: transparent;
+        width: 80%;
+        transition: all 800ms ease-in-out;
+      }
+      input::placeholder {
+        color: var(--secondaryTextcolor);
+      }
+      input:focus {
+        width: 400px;
+      }
+    }
+  }
+}
+
+.carMainbody {
+  .car-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+
+    .car {
+      background-position: center;
+      background-size: cover;
+      height: 20rem;
+      border-radius: 6px;
+      overflow: hidden;
+
+      transition: all 100ms ease-in-out 100ms;
+      .car-filter {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 20px;
+        background: linear-gradient(
+          183.47deg,
+          rgba(109, 108, 108, 0.164) 57.57%,
+          rgb(38, 38, 38) 79.67%
+        );
+        height: 100%;
+
+        h4 {
+          color: var(--primaryTextcolor);
+          font-family: var(--primaryfontfamily);
+          margin-bottom: 10px;
+          font-weight: 500;
+          font-size: 18px;
+          letter-spacing: 1px;
+        }
+        p {
+          color: var(--secondaryTextcolor);
+          font-size: 13px;
+          line-height: 150%;
+        }
+      }
+    }
+    .car:hover {
+      transform: scale(1.05);
+    }
+  }
+}
