@@ -1,0 +1,58 @@
+#CarDetail {
+  padding: 2rem 0;
+}
+
+.CardDetailImage {
+  height: 30rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(80%);
+  }
+}
+.carMainbody {
+  h1 {
+    color: var(--primaryTextcolor);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .carDescription {
+    h1 {
+      color: var(--primaryTextcolor);
+      font-weight: 400;
+      font-size: 40px;
+      font-family: var(--primaryfontfamily);
+      margin-bottom: 10px;
+    }
+    p {
+      color: var(--secondaryTextcolor);
+      line-height: 1.5rem;
+      margin-bottom: 3rem;
+    }
+  }
+  .parts {
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: var(--secondaryTextcolor);
+      margin-bottom: 20px;
+    }
+    .card {
+      height: 20rem;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 12px;
+      overflow: hidden;
+      margin: 0 10px;
+    }
+  }
+}

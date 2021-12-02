@@ -40,7 +40,7 @@
 .carMainbody {
   .car-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 40px;
 
@@ -51,7 +51,7 @@
       border-radius: 6px;
       overflow: hidden;
 
-      transition: all 100ms ease-in-out 100ms;
+      transition: transform 0.2s ease-in-out;
       .car-filter {
         display: flex;
         flex-direction: column;

@@ -1,0 +1,53 @@
+#Servicingform {
+  .Servicing {
+    h1 {
+      color: var(--primaryTextcolor);
+    }
+    p {
+      color: var(--primaryTextcolor);
+    }
+    .form {
+      form {
+        > div {
+          margin-bottom: 20px;
+        }
+        .vechiledescription {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-gap: 20px;
+
+          h4 {
+            grid-column: 1/5;
+          }
+          select {
+            width: 100%;
+          }
+        }
+        h4 {
+          color: var(--primaryTextcolor);
+        }
+        .parts {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          h4 {
+            grid-template: 1/2;
+          }
+        }
+      }
+    }
+  }
+}
+
+input,
+select,
+textarea {
+  background: rgba(142, 142, 142, 0.2);
+  border-radius: 6px;
+  width: 100%;
+  padding: 15px 10px;
+  color: var(--primaryTextcolor);
+}
+
+input::placeholder {
+  color: var(--primaryTextcolor);
+}

@@ -29,8 +29,20 @@
   font-family: var(--secondaryfontfamily);
 }
 
-body {
+section {
   background-color: var(--clrbgcolor);
+}
+body::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--clrbgcolor); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--secondaryTextcolor); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
 }
 h1 {
   font-family: var(--pimraryfontfamily);
@@ -41,12 +53,11 @@ h1 {
 }
 
 section {
-  padding: 8rem 0;
   display: flex;
   justify-content: center;
 }
 
-#Homepage {
+.homepage #Homepage {
   padding: 0;
 }
 
@@ -77,6 +88,7 @@ section {
 
 @media All and (max-width: 1366px) {
   .container {
-    width: 1300px;
+    padding: 40px;
+    width: 100%;
   }
 }
