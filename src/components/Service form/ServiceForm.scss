@@ -2,16 +2,18 @@
   .Servicing {
     h1 {
       color: var(--primaryTextcolor);
+      margin-bottom: 10px;
     }
     p {
       color: var(--primaryTextcolor);
+      margin-bottom: 20px;
     }
     .form {
       form {
         > div {
           margin-bottom: 20px;
         }
-        .vechiledescription {
+        > div {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
           grid-gap: 20px;
@@ -26,11 +28,29 @@
         h4 {
           color: var(--primaryTextcolor);
         }
-        .parts {
+        .row {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
+          grid-gap: 20px;
+        }
+        .row > div {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 20px;
+        }
+        .Message {
+          display: block;
           h4 {
-            grid-template: 1/2;
+            margin-bottom: 20px;
+          }
+        }
+        .btn {
+          button {
+            padding: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            background: green;
           }
         }
       }

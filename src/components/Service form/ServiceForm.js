@@ -31,43 +31,47 @@ const ServiceForm = () => {
                   <input type="text" placeholder="Vehicle Brand" />
                 </div>
               </div>
-              <div className="parts">
-                <h4>parts to be added</h4>
-                <div className="fromgroup">
-                  <select name="" id="">
-                    <option value=""> Category</option>
-                    <option value=""> Car</option>
-                    <option value=""> Bike</option>
-                  </select>
+              <div className="row">
+                <div className="parts">
+                  <h4>parts to be added</h4>
+                  <div className="fromgroup">
+                    <select name="" id="">
+                      <option value=""> Category</option>
+                      <option value=""> Car</option>
+                      <option value=""> Bike</option>
+                    </select>
+                  </div>
+                  <div className="formgroup"></div>
                 </div>
-                <div className="formgroup"></div>
+                <div className="parts">
+                  <h4>Servicing Date </h4>
+                  <div className="fromgroup">
+                    <input type="date" placeholder="Servicing Date" />
+                  </div>
+                  <div className="fromgroup">
+                    <input type="date" placeholder="Servicing Date" />
+                  </div>
+                </div>
               </div>
-              <div className="parts">
-                <h4>Servicing Date </h4>
-                <div className="fromgroup">
-                  <input type="date" placeholder="Servicing Date" />
+              <div className="row">
+                <div className="Parts to added">
+                  <h4>Parts to be added</h4>
+                  <div className="fromgroup">
+                    <select name="" id="">
+                      <option value=""> Category</option>
+                      <option value=""> Car</option>
+                      <option value=""> Bike</option>
+                    </select>
+                  </div>
+                  <div className="formgroup"></div>
                 </div>
-                <div className="fromgroup">
-                  <input type="date" placeholder="Servicing Date" />
+                <div className="location">
+                  <h4>Location</h4>
+                  <div className="fromgroup">
+                    <input type="text" placeholder="locationDirection" />
+                  </div>
+                  <div className="formgroup"></div>
                 </div>
-              </div>
-              <div className="Delivery">
-                <h4>parts to be added</h4>
-                <div className="fromgroup">
-                  <select name="" id="">
-                    <option value=""> Category</option>
-                    <option value=""> Car</option>
-                    <option value=""> Bike</option>
-                  </select>
-                </div>
-                <div className="formgroup"></div>
-              </div>
-              <div className="location">
-                <h4>parts to be added</h4>
-                <div className="fromgroup">
-                  <input type="date" placeholder="locationDirection" />
-                </div>
-                <div className="formgroup"></div>
               </div>
               <div className="Message">
                 <h4>Message to be added</h4>
@@ -80,6 +84,9 @@ const ServiceForm = () => {
                     placeholder="Message"
                   ></textarea>
                 </div>
+              </div>
+              <div className="btn">
+                <button className="successbtn">Submit</button>
               </div>
             </form>
           </div>
