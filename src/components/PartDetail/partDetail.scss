@@ -1,0 +1,49 @@
+#PartsDetail {
+  .parts {
+    h1 {
+      color: var(--primaryTextcolor);
+      font-family: var(--primaryfontfamily);
+      font-size: 30px;
+      font-weight: 400;
+    }
+    h4 {
+      color: var(--primaryTextcolor);
+      margin-bottom: 3rem;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    p,
+    h5 {
+      color: var(--primaryTextcolor);
+    }
+    h5 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    .partDescription {
+      color: var(--primaryTextcolor);
+      gap: 40px;
+      margin-bottom: 2rem;
+
+      p {
+        color: var(--primaryTextcolor);
+        line-height: 150%;
+      }
+
+      > div {
+        flex: 1;
+        .image {
+          height: 25rem;
+          overflow: hidden;
+          border-radius: 12px;
+          img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

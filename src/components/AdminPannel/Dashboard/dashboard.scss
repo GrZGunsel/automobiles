@@ -1,0 +1,28 @@
+.dashboard {
+  height: 100%;
+  background-color: #000000;
+  color: var(--primaryTextcolor);
+
+  .maincontent {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 3rem;
+    h1 {
+      color: var(--primaryTextcolor);
+      font-family: var(--primaryfontfamily);
+      font-weight: 400;
+      margin-bottom: 2rem;
+    }
+    .counter {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      > div {
+        height: 20rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+      }
+    }
+  }
+}
