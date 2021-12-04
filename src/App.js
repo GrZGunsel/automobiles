@@ -11,7 +11,7 @@ import ServiceForm from "./components/Service form/ServiceForm";
 function App() {
   return (
     <>
-      <Dashboard />
+      <Homepage />
     </>
   );
 }

@@ -20,7 +20,62 @@
   padding: 0 20px;
 }
 
-.authentication {
-  display: flex;
-  gap: 20px;
+.Login {
+  position: relative;
+
+  > * {
+    transition: all 0.5s ease-in-out;
+  }
+  .dropdown {
+    background: linear-gradient(
+      132.76deg,
+      rgba(255, 255, 255, 0.19) 0%,
+      rgba(255, 255, 255, 0.245) 100%
+    );
+
+    backdrop-filter: blur(34px);
+    border-radius: 12px;
+    position: absolute;
+    padding: 20px;
+    width: 20rem;
+    top: 40px;
+    right: 0;
+    .profile {
+      gap: 10px;
+      margin-bottom: 30px;
+      h4 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+    .image {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .logout {
+      width: 100%;
+    }
+    .logoutbtn {
+      background: red;
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      padding: 10px;
+      width: 50%;
+      border-radius: 254px;
+    }
+  }
 }
