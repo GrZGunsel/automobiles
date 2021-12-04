@@ -33,11 +33,6 @@ const Sidebar = () => {
           <p>Vehilce</p>
         </div>
         <div className="link">
-          <RiFeedbackLine size={24} />
-
-          <p>Feedback</p>
-        </div>
-        <div className="link">
           <GiMechanicGarage size={24} />
 
           <p>Service List</p>
@@ -49,6 +44,11 @@ const Sidebar = () => {
         <div className="link">
           <GiSteeringWheel size={24} />
           <p>Parts</p>
+        </div>
+        <div className="link">
+          <RiFeedbackLine size={24} />
+
+          <p>Feedback</p>
         </div>
         <div className="link logout">
           <FiLogOut size={24} />

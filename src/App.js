@@ -1,4 +1,5 @@
 import "./App.scss";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Dashboard from "./components/AdminPannel/Dashboard/Dashboard";
 import Login from "./components/Authentication/Login/Login";
 import Cars from "./components/Car/Cars";

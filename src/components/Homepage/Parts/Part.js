@@ -3,6 +3,8 @@ import { FiSearch } from "react-icons/fi";
 import "./Part.scss";
 import Slider from "react-slick";
 import Parts from "./Parts";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
 
 const Part = () => {
   var settings = {
@@ -48,7 +50,48 @@ const Part = () => {
             <input type="text" name="" id="" placeholder="Type Something " />
             <button className="primarybtn">search</button>
           </div>
+
           <div className="slider">
+            <Swiper
+              spaceBetween={50}
+              slidesPerView={3}
+              style={{ marginBottom: "2rem" }}
+            >
+              <>
+                <SwiperSlide>
+                  {" "}
+                  <Parts
+                    title="Car, Bike tryre "
+                    subtitle="lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                  />{" "}
+                </SwiperSlide>
+                <SwiperSlide>
+                  {" "}
+                  <Parts
+                    title="Car, Bike tryre "
+                    subtitle="lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                  />{" "}
+                </SwiperSlide>
+                <SwiperSlide>
+                  {" "}
+                  <Parts
+                    title="Car, Bike tryre "
+                    subtitle="lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                  />{" "}
+                </SwiperSlide>
+                <SwiperSlide>
+                  {" "}
+                  <Parts
+                    title="Car, Bike tryre "
+                    subtitle="lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    src="https://images.unsplash.com/photo-1588007438126-be22e38c1841?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                  />
+                </SwiperSlide>
+              </>
+            </Swiper>
             <Slider {...settings}>
               <div>
                 <Parts

@@ -26,3 +26,19 @@
     }
   }
 }
+
+@media all and (max-width: 1366px) {
+  .sidebar .sidebarLinks .link {
+    font-size: 14px;
+  }
+  .dashboard {
+    .maincontent {
+      .counter {
+        grid-template-columns: repeat(3, 1fr);
+        > div {
+          height: 15rem;
+        }
+      }
+    }
+  }
+}
