@@ -54,7 +54,9 @@ const Part = () => {
           <div className="slider">
             <Swiper
               spaceBetween={50}
-              slidesPerView={3}
+              slidesPerView={2}
+              loop={{ loop: true }}
+              autoplay={{ delay: 800 }}
               style={{ marginBottom: "2rem" }}
             >
               <>
