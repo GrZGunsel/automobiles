@@ -24,14 +24,24 @@
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 40px;
       div {
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
         gap: 10px;
         .icon {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
           color: var(--primaryTextcolor);
           background-color: var(--primary);
           flex-shrink: 0;
+        }
+      }
+      .detail {
+        width: 100%;
+        h4 {
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 14px;
         }
       }
     }

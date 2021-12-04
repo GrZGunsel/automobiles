@@ -1,7 +1,19 @@
 import React from "react";
 import "./Contact.scss";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import { AiOutlineMail } from "react-icons/ai";
+import { BiTime } from "react-icons/bi";
+import { FiPhone } from "react-icons/fi";
 const Contact = () => {
+  const sucess = {
+    background: "green",
+    padding: "15px",
+    fontSize: "14px",
+    width: "100%",
+    color: "white",
+    fontWeight: "600",
+    borderRadius: "250px",
+  };
   return (
     <section>
       <div className="container">
@@ -14,25 +26,37 @@ const Contact = () => {
                 <div className="icon flex align-center justify-center">
                   <HiOutlineLocationMarker size={18} />
                 </div>
-                <p>loremispm</p>
+                <div className="detail">
+                  <h4>Location</h4>
+                  <p>Kathmandu,Nepal</p>
+                </div>
               </div>
               <div className="Phonenumber flex align-center">
                 <div className="icon flex align-center justify-center">
-                  <HiOutlineLocationMarker size={18} />
+                  <BiTime size={18} />
                 </div>
-                <p>loremispm</p>
+                <div className="detail">
+                  <h4>Opening Time</h4>
+                  <p>9:30-10:00</p>
+                </div>
               </div>
               <div className="emailAddress flex align-center">
                 <div className="icon flex align-center justify-center">
-                  <HiOutlineLocationMarker size={18} />
+                  <AiOutlineMail size={18} />
                 </div>
-                <p>loremispm</p>
+                <div className="detail">
+                  <h4>Mail</h4>
+                  <p>Career@gmail.com</p>
+                </div>
               </div>
               <div className="openingTime flex align-center">
                 <div className="icon flex align-center justify-center">
-                  <HiOutlineLocationMarker size={18} />
+                  <FiPhone size={18} />
                 </div>
-                <p>loremispm</p>
+                <div className="detail">
+                  <h4>Phone</h4>
+                  <p>9808213333</p>
+                </div>
               </div>
             </div>
           </div>
@@ -61,8 +85,9 @@ const Contact = () => {
                 </div>
 
                 <div className="sad">
-                  <p>asd</p>
-                  <html></html>
+                  <button className="btn" style={sucess}>
+                    submit
+                  </button>
                 </div>
               </form>
             </div>
