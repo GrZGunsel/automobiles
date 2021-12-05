@@ -1,0 +1,65 @@
+.billing {
+  > h1 {
+    font-family: var(--primaryfontfamily);
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 5rem;
+  }
+  .billingheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 5rem;
+
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      h1 {
+        font-size: 18px;
+        margin: 0;
+      }
+    }
+  }
+  .billinggrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    button {
+      margin-top: 2rem;
+      padding: 10px 20px;
+      background: var(--primary);
+      font-weight: 600;
+      color: white;
+
+      font-size: 18px;
+    }
+  }
+  .billingbody {
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+    }
+    .total {
+      padding: 10px 0;
+      margin-top: 40px;
+      width: 200px;
+      border-top: 4px solid white;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+  h1 {
+    color: var(--primaryTextcolor);
+  }
+  p {
+    color: var(--primaryTextcolor);
+    font-size: 14px;
+    margin: 0;
+  }
+}
