@@ -10,11 +10,12 @@ import PartGrid from "./components/Parts/PartGrid";
 
 import ServiceForm from "./components/Service form/ServiceForm";
 import Adminlogin from "./components/Adminlogin/Adminlogin";
+import Feedback from "./components/AdminPannel/Faq/Feedback";
 
 function App() {
   return (
     <>
-      <Adminlogin />
+      <Feedback />
     </>
   );
 }

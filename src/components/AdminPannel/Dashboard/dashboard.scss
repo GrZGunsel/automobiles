@@ -26,6 +26,61 @@
     }
   }
 }
+.ant-table {
+  background: #252525 !important;
+  color: white !important;
+  padding: 2rem !important;
+  border-radius: 12px !important;
+}
+.ant-table-tbody > tr:nth-child(even) {
+  background: #121212 !important;
+}
+.ant-table-tbody > tr > td {
+  border: none !important;
+}
+
+.ant-table.row-hover:hover {
+  background: transparent !important;
+  color: var(--primary) !important;
+}
+.ant-table-thead > tr > th {
+  background: #121212 !important;
+  color: white !important;
+  border: none !important;
+}
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  background: transparent !important;
+  color: var(--primary) !important;
+}
+.avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+}
+.ant-upload.ant-upload-select-picture-card {
+  background: #252525 !important;
+  color: white !important;
+  border: none !important;
+}
+.ant-upload {
+  color: white !important;
+}
+label {
+  color: white !important;
+}
+
+.dashboard {
+  input,
+  textarea,
+  select {
+    background: #252525 !important;
+    padding: 15px 10px !important;
+    color: white !important;
+    border: none;
+    width: 100%;
+    border-radius: 6px !important;
+  }
+}
 
 @media all and (max-width: 1366px) {
   .sidebar .sidebarLinks .link {
